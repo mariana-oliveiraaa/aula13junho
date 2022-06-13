@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.title {
+  text-align: center;
+  margin: 2rem 0;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input input {
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+  height: 40px;
+}
+.form-input button {
+  height: 40px;
+  margin-left: 1%;
+  background-color: rgb(219, 238, 96);
+  font-weight: bold;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 15%;
+}
+
+.list-times {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+table {
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1rem;
+}
+
+table thead {
+  background-color: purple;
+  color: white;
+}
+
+table thead th {
+  font-weight: bolder;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgb(217, 176, 255);
+}
+
+.title h2 {
+  color: rgb(74, 45, 106);
+  font-family: "Bebas Neue", cursive;
+}
